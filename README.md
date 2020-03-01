@@ -1,6 +1,6 @@
 # zappy_restro
 
-A new Flutter project.
+A Flutter project to understand the UI Designing application. 
 
 ## Getting Started
 
