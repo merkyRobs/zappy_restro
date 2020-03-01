@@ -2,6 +2,8 @@
 
 A Flutter project to understand the UI Designing application. 
 
+![Screen Shot](https://imgur.com/a/pEPO91b)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
