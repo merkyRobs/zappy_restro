@@ -1,10 +1,11 @@
+
+
+// Food
 import 'package:zappy_restro/model/food.dart';
 import 'package:zappy_restro/model/order.dart';
 import 'package:zappy_restro/model/restaurant.dart';
 import 'package:zappy_restro/model/users.dart';
 
-
-// Food
 final _burrito =
     Food(imageUrl: 'assets/images/burrito.jpg', name: 'Burrito', price: 8.99);
 final _steak =
@@ -70,7 +71,7 @@ final List<Restaurant> restaurants = [
 // User
 final currentUser = User(
   name: 'Rebecca',
-  userOrder: [
+  orders: [
     Order(
       date: 'Nov 10, 2019',
       food: _steak,
@@ -102,7 +103,7 @@ final currentUser = User(
       quantity: 1,
     ),
   ],
-  userCart: [
+  cart: [
     Order(
       date: 'Nov 11, 2019',
       food: _burger,

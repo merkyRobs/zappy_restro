@@ -1,9 +1,13 @@
-import 'order.dart';
+import 'package:zappy_restro/model/order.dart';
 
-class User{
+class User {
   final String name;
-  final List<Order> userOrder;
-  final List<Order> userCart;
+  final List<Order> orders;
+  final List<Order> cart;
 
-  User({this.name, this.userOrder, this.userCart});
+  User({
+    this.name,
+    this.orders,
+    this.cart,
+  });
 }

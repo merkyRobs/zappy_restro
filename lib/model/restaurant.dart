@@ -1,11 +1,17 @@
-import 'food.dart';
+import 'package:zappy_restro/model/food.dart';
 
-class Restaurant{
+class Restaurant {
   final String imageUrl;
   final String name;
   final String address;
   final int rating;
   final List<Food> menu;
 
-  Restaurant({this.imageUrl,this.name,this.address,this.rating,this.menu});
+  Restaurant({
+    this.imageUrl,
+    this.name,
+    this.address,
+    this.rating,
+    this.menu,
+  });
 }
