@@ -2,7 +2,7 @@
 
 A Flutter project to understand the UI Designing application. 
 
-![Screen Shot](https://imgur.com/a/pEPO91b)
+![Image](//imgur.com/a/pEPO91b)
 
 ## Getting Started
 
