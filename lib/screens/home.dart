@@ -4,6 +4,7 @@ import 'package:zappy_restro/model/restaurant.dart';
 import 'package:zappy_restro/widgets/rating_starts.dart';
 import 'package:zappy_restro/widgets/recent_orders.dart';
 
+import 'cart_screen.dart';
 import 'restauranr_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -97,7 +98,8 @@ class _HomeState extends State<HomeScreen> {
         ),
         actions: <Widget>[
           FlatButton(
-              onPressed: () {},
+              onPressed: () => Navigator.push(context, 
+                        MaterialPageRoute(builder: (_)=> CartScreen())),
               child: Text(
                 "Cart (${currentUser.cart.length})",
                 style: TextStyle(color: Colors.white, fontSize: 20.0),
