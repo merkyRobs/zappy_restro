@@ -1,7 +1,9 @@
 # zappy_restro
 
-A Flutter project to understand the UI Designing application. 
+**Zappy Restro** is basic Flutter application which helps to learn and understand the Flutter View Concept. It's a small application with two screen which focus on **Flutter UI with ListView, Container, Horizontal and Vertical Scroll.**
 
+<img src="screenshots/main_screen.jpeg" alt="Main Screen" height="1200" width="600">
+<img src="screenshots/Screenshot_20200303-223438.png" alt="Another Screen" height="1200" width="600">
 
 ## Getting Started
 
